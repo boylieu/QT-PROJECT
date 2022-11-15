@@ -1,5 +1,9 @@
 QT       += core gui sql
-
+QT += printsupport
+QT+=network
+QT       += core gui sql network multimedia charts serialport
+QT       += core gui sql multimedia multimediawidgets charts
+QT += charts
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
@@ -19,15 +23,20 @@ SOURCES += \
     connection.cpp \
     main.cpp \
     mainwindow.cpp \
-    rdv.cpp
+    rdv.cpp \
+    smtp.cpp \
+    stat_combo.cpp
 
 HEADERS += \
     connection.h \
     mainwindow.h \
-    rdv.h
+    rdv.h \
+    smtp.h \
+    stat_combo.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    stat_qt.ui
 
 TRANSLATIONS += \
     interface_graphique_fr_FR.ts
@@ -36,3 +45,7 @@ TRANSLATIONS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    ../../formation_QT/add me to your project so mail works/libeay32.dll \
+    ../../formation_QT/add me to your project so mail works/ssleay32.dll

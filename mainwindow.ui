@@ -78,141 +78,30 @@
    <string>gestion_rendez_vous</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTableWidget" name="tableWidget">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>20</y>
-      <width>591</width>
-      <height>311</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(196, 155, 197);
-
-
-</string>
-    </property>
-    <column>
-     <property name="text">
-      <string>num rdv</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>code per</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>etat</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>date</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>num salle</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>type rdv</string>
-     </property>
-    </column>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>360</y>
-      <width>101</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-font: 11pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(222, 156, 197);
-</string>
-    </property>
-    <property name="text">
-     <string>Trier</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_5">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>360</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-font: 11pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(222, 156, 197);</string>
-    </property>
-    <property name="text">
-     <string>Exporter PDF</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_6">
-    <property name="geometry">
-     <rect>
-      <x>940</x>
-      <y>540</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>460</y>
-      <width>151</width>
+      <x>20</x>
+      <y>420</y>
+      <width>41</width>
       <height>16</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 font: 75 9pt &quot;Arial&quot;;
 font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Suppression : </string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>500</y>
-      <width>111</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(255, 255, 255);
-font: 75 9pt &quot;Arial&quot;;
-color: rgb(255, 255, 255);
-border-top-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>         CIN : </string>
+     <string>mail:</string>
     </property>
    </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>1070</x>
-      <y>450</y>
+      <x>1150</x>
+      <y>460</y>
       <width>131</width>
       <height>16</height>
      </rect>
@@ -224,7 +113,7 @@ border-top-color: rgb(255, 255, 255);</string>
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>1170</x>
+      <x>1250</x>
       <y>460</y>
       <width>61</width>
       <height>181</height>
@@ -237,7 +126,7 @@ border-top-color: rgb(255, 255, 255);</string>
    <widget class="Line" name="line_3">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>950</x>
       <y>620</y>
       <width>331</width>
       <height>41</height>
@@ -250,10 +139,10 @@ border-top-color: rgb(255, 255, 255);</string>
    <widget class="Line" name="line_4">
     <property name="geometry">
      <rect>
-      <x>850</x>
-      <y>460</y>
+      <x>940</x>
+      <y>470</y>
       <width>41</width>
-      <height>181</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="orientation">
@@ -263,33 +152,14 @@ border-top-color: rgb(255, 255, 255);</string>
    <widget class="Line" name="line_5">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>440</y>
+      <x>960</x>
+      <y>450</y>
       <width>81</width>
       <height>41</height>
      </rect>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>900</x>
-      <y>600</y>
-      <width>271</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-font: 11pt &quot;MS Shell Dlg 2&quot;;
-
-color: rgb(196, 155, 197);</string>
-    </property>
-    <property name="text">
-     <string>Supprimer</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -302,7 +172,8 @@ color: rgb(196, 155, 197);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 193, 250);</string>
     </property>
     <property name="text">
      <string/>
@@ -311,8 +182,8 @@ color: rgb(196, 155, 197);</string>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>510</y>
+      <x>1030</x>
+      <y>530</y>
       <width>131</width>
       <height>16</height>
      </rect>
@@ -327,8 +198,8 @@ color: rgb(196, 155, 197);</string>
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>960</x>
-      <y>450</y>
+      <x>1040</x>
+      <y>460</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -344,8 +215,8 @@ color: rgb(225, 156, 197);</string>
    <widget class="Line" name="line_6">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>410</y>
+      <x>10</x>
+      <y>400</y>
       <width>571</width>
       <height>20</height>
      </rect>
@@ -357,8 +228,8 @@ color: rgb(225, 156, 197);</string>
    <widget class="Line" name="line_7">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>420</y>
+      <x>560</x>
+      <y>410</y>
       <width>51</width>
       <height>261</height>
      </rect>
@@ -367,610 +238,501 @@ color: rgb(225, 156, 197);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QTabWidget" name="tabWidget">
+   <widget class="QLineEdit" name="le_num">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>10</y>
-      <width>831</width>
-      <height>551</height>
+      <x>110</x>
+      <y>40</y>
+      <width>91</width>
+      <height>21</height>
      </rect>
     </property>
-    <property name="currentIndex">
-     <number>3</number>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
     </property>
-    <widget class="QWidget" name="tab">
-     <attribute name="title">
-      <string>Ajouter un Rdv</string>
-     </attribute>
-     <widget class="QGroupBox" name="groupBox">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>831</width>
-        <height>521</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>50</weight>
-        <italic>false</italic>
-        <bold>false</bold>
-        <underline>true</underline>
-        <strikeout>false</strikeout>
-        <kerning>false</kerning>
-       </font>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-background-color: rgb(255, 255, 255);
-
-font: 11pt &quot;Arial&quot;;
-font: 10pt &quot;Arial&quot;;
-border-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="title">
-       <string>                      Ajout d'un rendez-vous</string>
-      </property>
-      <widget class="QLabel" name="label">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>40</y>
-         <width>211</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>numero rdv :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_2">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>140</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>etat :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_3">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>90</y>
-         <width>141</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>code personnel :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_4">
-       <property name="geometry">
-        <rect>
-         <x>220</x>
-         <y>140</y>
-         <width>56</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Date :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_5">
-       <property name="geometry">
-        <rect>
-         <x>230</x>
-         <y>40</y>
-         <width>151</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>numero de salle :</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="bt_ajouter">
-       <property name="geometry">
-        <rect>
-         <x>350</x>
-         <y>470</y>
-         <width>111</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
+    <property name="text">
+     <string>numero rdv :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_numsalle">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>numero de salle :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_code">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>code personnel :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_type">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>100</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>type rdv :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_etat">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>etat :</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="la_date">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Date :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nom citoyen</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_nom">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>250</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>prenom citoyen</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_prenom">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>250</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_ajouter">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
 color: rgb(225, 156, 197);
 font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Ajouter</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_7">
-       <property name="geometry">
-        <rect>
-         <x>260</x>
-         <y>100</y>
-         <width>101</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>type rdv :</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_numsalle">
-       <property name="geometry">
-        <rect>
-         <x>370</x>
-         <y>40</y>
-         <width>81</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_type">
-       <property name="geometry">
-        <rect>
-         <x>370</x>
-         <y>90</y>
-         <width>81</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_etat">
-       <property name="geometry">
-        <rect>
-         <x>70</x>
-         <y>140</y>
-         <width>71</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_code">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>90</y>
-         <width>71</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QDateEdit" name="la_date">
-       <property name="geometry">
-        <rect>
-         <x>290</x>
-         <y>140</y>
-         <width>110</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_num">
-       <property name="geometry">
-        <rect>
-         <x>120</x>
-         <y>40</y>
-         <width>91</width>
-         <height>21</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_13">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>190</y>
-         <width>101</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>nom citoyen</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_14">
-       <property name="geometry">
-        <rect>
-         <x>300</x>
-         <y>200</y>
-         <width>131</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>prenom citoyen</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_nom">
-       <property name="geometry">
-        <rect>
-         <x>120</x>
-         <y>200</y>
-         <width>113</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="le_prenom">
-       <property name="geometry">
-        <rect>
-         <x>440</x>
-         <y>200</y>
-         <width>113</width>
-         <height>22</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_6">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>260</y>
-         <width>671</width>
-         <height>221</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>../../../Pictures/Capture d’écran 2022-10-10 154138.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <zorder>label_6</zorder>
-      <zorder>label</zorder>
-      <zorder>label_2</zorder>
-      <zorder>label_3</zorder>
-      <zorder>label_4</zorder>
-      <zorder>label_5</zorder>
-      <zorder>bt_ajouter</zorder>
-      <zorder>label_7</zorder>
-      <zorder>le_numsalle</zorder>
-      <zorder>le_type</zorder>
-      <zorder>le_etat</zorder>
-      <zorder>le_code</zorder>
-      <zorder>la_date</zorder>
-      <zorder>le_num</zorder>
-      <zorder>label_13</zorder>
-      <zorder>label_14</zorder>
-      <zorder>le_nom</zorder>
-      <zorder>le_prenom</zorder>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_2">
-     <attribute name="title">
-      <string>Afficher un Rdv</string>
-     </attribute>
-     <widget class="QTableView" name="tab_rdv">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>21</y>
-        <width>771</width>
-        <height>351</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="bt_mod">
-      <property name="geometry">
-       <rect>
-        <x>380</x>
-        <y>420</y>
-        <width>93</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>modifier</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_3">
-     <attribute name="title">
-      <string>Supprimer un Rdv</string>
-     </attribute>
-     <widget class="QLabel" name="label_15">
-      <property name="geometry">
-       <rect>
-        <x>250</x>
-        <y>40</y>
-        <width>271</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
-      </property>
-      <property name="text">
-       <string>numero rendez-vous :</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="le_supp">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>80</y>
-        <width>171</width>
-        <height>31</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_16">
-      <property name="geometry">
-       <rect>
-        <x>-10</x>
-        <y>250</y>
-        <width>841</width>
-        <height>271</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>../../../Pictures/Capture d’écran 2022-10-10 154138.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="rdv_supp">
-      <property name="geometry">
-       <rect>
-        <x>250</x>
-        <y>200</y>
-        <width>251</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Supprimer</string>
-      </property>
-     </widget>
-     <zorder>label_16</zorder>
-     <zorder>label_15</zorder>
-     <zorder>le_supp</zorder>
-     <zorder>rdv_supp</zorder>
-    </widget>
-    <widget class="QWidget" name="tab_4">
-     <attribute name="title">
-      <string>Modifier un Rdv</string>
-     </attribute>
-     <widget class="QLabel" name="label_17">
-      <property name="geometry">
-       <rect>
-        <x>-10</x>
-        <y>250</y>
-        <width>841</width>
-        <height>271</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>../../../Pictures/Capture d’écran 2022-10-10 154138.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="num_rdv_modif">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>40</y>
-        <width>151</width>
-        <height>21</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="etat_modif">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>80</y>
-        <width>151</width>
-        <height>21</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="nom_modif">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>140</y>
-        <width>161</width>
-        <height>21</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="num_s_modif">
-      <property name="geometry">
-       <rect>
-        <x>562</x>
-        <y>40</y>
-        <width>161</width>
-        <height>21</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="type_modif">
-      <property name="geometry">
-       <rect>
-        <x>562</x>
-        <y>90</y>
-        <width>161</width>
-        <height>21</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="prenom_modif">
-      <property name="geometry">
-       <rect>
-        <x>562</x>
-        <y>150</y>
-        <width>161</width>
-        <height>21</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="confirmer">
-      <property name="geometry">
-       <rect>
-        <x>312</x>
-        <y>200</y>
-        <width>151</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>confirmer</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_18">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>40</y>
-        <width>71</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>numero rdv</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_19">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>80</y>
-        <width>56</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>etat</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_20">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>140</y>
-        <width>56</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>nom</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_21">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>40</y>
-        <width>81</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>numero salle</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_22">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>90</y>
-        <width>56</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>type</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_23">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>150</y>
-        <width>56</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>prenom</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_24">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>200</y>
-        <width>56</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>id</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="id_modif">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>200</y>
-        <width>113</width>
-        <height>22</height>
-       </rect>
-      </property>
-     </widget>
-    </widget>
+    </property>
+    <property name="text">
+     <string>Ajouter</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tab_rdv">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>591</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_mod">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>330</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>modifier</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_supp">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>560</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rdv_supp">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>600</y>
+      <width>251</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Supprimer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="confirmer">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>330</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>confirmer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PDF">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(225, 156, 197);
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PDF</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo_box_nom">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>160</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rech">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>80</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>50</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>recherche par nom :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stat">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>370</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(225, 156, 197);
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Statistique</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rcpt">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>450</y>
+      <width>411</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>450</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>destinataire:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="subject">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>480</y>
+      <width>411</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>480</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>objet:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>message:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="msg">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>510</y>
+      <width>411</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendBtn">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>640</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(225, 156, 197);
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>envoyer</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>440</y>
+      <width>311</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>130</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>trier :</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>660</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
    </widget>
    <zorder>label_11</zorder>
-   <zorder>tableWidget</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>pushButton_5</zorder>
-   <zorder>lineEdit_6</zorder>
    <zorder>label_10</zorder>
-   <zorder>label_9</zorder>
    <zorder>line</zorder>
    <zorder>line_2</zorder>
    <zorder>line_3</zorder>
    <zorder>line_4</zorder>
    <zorder>line_5</zorder>
-   <zorder>pushButton_6</zorder>
    <zorder>label_8</zorder>
    <zorder>label_12</zorder>
    <zorder>line_6</zorder>
    <zorder>line_7</zorder>
-   <zorder>tabWidget</zorder>
+   <zorder>le_num</zorder>
+   <zorder>label</zorder>
+   <zorder>le_numsalle</zorder>
+   <zorder>label_5</zorder>
+   <zorder>le_code</zorder>
+   <zorder>label_3</zorder>
+   <zorder>le_type</zorder>
+   <zorder>label_7</zorder>
+   <zorder>le_etat</zorder>
+   <zorder>label_2</zorder>
+   <zorder>la_date</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_13</zorder>
+   <zorder>le_nom</zorder>
+   <zorder>label_14</zorder>
+   <zorder>le_prenom</zorder>
+   <zorder>bt_ajouter</zorder>
+   <zorder>tab_rdv</zorder>
+   <zorder>bt_mod</zorder>
+   <zorder>le_supp</zorder>
+   <zorder>rdv_supp</zorder>
+   <zorder>confirmer</zorder>
+   <zorder>PDF</zorder>
+   <zorder>combo_box_nom</zorder>
+   <zorder>rech</zorder>
+   <zorder>label_15</zorder>
+   <zorder>stat</zorder>
+   <zorder>rcpt</zorder>
+   <zorder>label_6</zorder>
+   <zorder>subject</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_17</zorder>
+   <zorder>msg</zorder>
+   <zorder>sendBtn</zorder>
+   <zorder>calendarWidget</zorder>
+   <zorder>label_9</zorder>
+   <zorder>dateEdit</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

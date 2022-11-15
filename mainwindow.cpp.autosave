@@ -240,71 +240,9 @@ void MainWindow::on_sendBtn_clicked()
 
     smtp->sendMail("benabbes.soumaya@esprit.tn", a , b,c);
 }
-/* QChart * Rdv ::stat(){
-QSqlQuery q,q1,q2,q3,q4,q5;
-   q.exec("Select * from RDV");
-   int tot=0;
-   while (q.next())
-       tot++;
-  qDebug() << "total =" << tot;
-   q1.prepare("Select * from RDV where num = :num ");
-   q1.bindValue(":num","numero rendez-vous");
-   q1.exec();
-
-   int tot_don=0;
-   while (q1.next())
-       tot_don++;
-qDebug() << "pourcentage client =" << tot_don;
-   qreal pour_Vetments=(tot_don100)/tot;
-
-   q2.prepare("Selectfrom billet where classement = :nom  ");
-   q2.bindValue(":nom","classe affaires");
-   q2.exec();
-   int tot_event=0;
-   while (q2.next())
-       tot_event++;
-
-   qreal pour_Voiture=(tot_event100)/tot;
-
-   q3.prepare("Select from billet where classement = :nom  ");
-   q3.bindValue(":nom","classe eco");
-   q3.exec();
-   int tot_dep=0;
-   while (q3.next())
-       tot_dep++;
-   qreal pour_supermarche=(tot_dep100)/tot;
-
-
-
-   QPieSeriesseries = new QPieSeries();
-    series->append("premiere classe",pour_Vetments);
-    series->append("classe affaires",pour_Voiture);
-    series->append("classe eco",pour_supermarche);
-
-    QPieSlice slice0= series->slices().at(0);
-    slice0->setLabelVisible();
-    QPieSliceslice1 = series->slices().at(1);
-
-    slice1->setLabelVisible();
-
-    slice1->setBrush(Qt::green);
-
-    QPieSlice slice2= series->slices().at(2);
-    slice2->setLabelVisible();
-     slice2->setBrush(Qt::red);
-
-    QChartchart = new QChart();
-    chart->addSeries(series);
-    chart->setTitle("classement des billet");
-    chart->legend()->hide();
-
-
-
-   return chart;
-}
-*/
-
-void MainWindow::on_calendarWidget_clicked(const QDate &date)
+                                                          // CALENDRIER MAIS NE MARCHE PAS
+/* 
+  void MainWindow::on_calendarWidget_clicked(const QDate &date)
 {
 ui->dateEdit->setDate(date);
 QString dat=ui->dateEdit->text();
@@ -327,7 +265,7 @@ if(qry.value(7).toString()==dat)
 }//fin while
 }//fin if qry
 }
-
+*/
 void MainWindow::on_stat_clicked()
 {
     s = new stat_combo();
